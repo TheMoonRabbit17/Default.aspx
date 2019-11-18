@@ -1,0 +1,152 @@
+<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
+
+<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+    
+    <script src="STB.js">   
+               
+    </script>
+    
+    <div id="divDefaultMain">
+
+        <!-- left column -->
+
+        <div id="divTopLeft" class="col-md-4">
+            <h3>Articles</h3>
+            <br/>
+            <ul >
+                <li class="liArticles"><a href="August 2017">March 2018</a></li>
+                <li class="liArticles"><a href="#">April 2018</a></li>
+                <li class="liArticles"><a href="#">May 2018</a></li>
+                <li class="liArticles"><a href="#">June 2018</a></li>
+            </ul>
+            <iframe src="https://giphy.com/embed/JwTqLNfrx4OPe" width="344" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/dance-dancing-groot-JwTqLNfrx4OPe">via GIPHY</a></p>
+        </div>
+        
+        <!-- end left column -->
+
+        <!-- middle column -->
+
+        <div id="divTopMiddle" class="col-md-4">
+            <img class="img-Profile" src="http://i67.tinypic.com/2qlbjn6.jpg" width="300" height="300"/>
+            <p>Hello Everyone! Welcome to my blog, where I would share all of my favorite things. Restaurants, games, points of interest, you name it! I'm always looking for new things, so don't hesitate to message me</p>
+            <p>
+                <a class="btn btn-default" href="Contact.aspx">Contact Me! &raquo;</a>
+            </p>
+          
+        </div>
+        
+        <!-- end middle column -->
+        
+
+        <!-- right column -->
+
+        <div id="divTopRight" class="col-md-4">
+            <span class="spnTitle">Featured Game</span>
+            <p>
+                <img src="http://steam.cryotank.net/wp-content/gallery/watchdogs2/Watch-Dogs-2-08-HD.png" width="400" height="250" />
+            </p>
+            <p>
+                <a class="btn btn-default" href="https://www.bestbuy.com/site/watch-dogs-2-playstation-4/5397300.p?skuId=5397300">Buy &raquo;</a>
+            </p>
+            <hr style="height:1px;border:none;color:#333;background-color:lightgray;"/>
+
+            <span class="spnTitle">Featured Restaurant</span>
+            <p>
+                <img src="https://www.smartdestinations.com/img/pt/dest/Dxb/att/Dxb_Att_Meal_at_Rainforest_Cafe/gallery/Meal-at-Rainforest-Cafe-1.jpg "width="400" height="250"/>
+            </p>
+            <p>
+                <a class="btn btn-default" href="http://www.rainforestcafe.com/">Check me out! &raquo;</a>
+            </p>
+          
+        </div>
+        
+        <!-- end right column -->
+
+    </div>
+ 
+    <!-- middle area -->
+    
+    <div id="divDefaultMiddle">
+
+        <!-- left column -->
+
+        <div id="divMiddleLeft" class="col-md-4">
+           
+            <iframe src="https://giphy.com/embed/FltCW7GUbF5iE" width="480" height="265" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/FltCW7GUbF5iE">via GIPHY</a></p>
+        </div>
+        
+        <!-- end left column -->
+
+        <!-- middle column -->
+
+        <div id="divMiddleMiddle" class="col-md-4">
+           
+        </div>
+        
+        <!-- end middle column -->
+        
+
+        <!-- right column -->
+
+        <div id="divMiddleRight" class="col-md-4">
+            
+            <div class="wrap">
+  <div id="demo">
+
+    <div id="loader"></div>
+
+    <div id="panorama">
+      <div class="face f1"></div>
+      <div class="face f2"></div>
+      <div class="face f3">
+      </div>
+      <div class="face f4">
+        
+      </div>
+      <div class="face f5">
+        
+      </div>
+      <div class="face f6">
+        <
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+        
+        <!-- end right column -->
+
+    </div>
+    
+    <!-- end middle area -->
+    
+  
+    <!-- bottom area -->
+    
+    <div id="divDefaultBottom">
+
+        <!-- left column -->
+
+        <div id="divBottomLeft" class="col-md-6">
+            
+            </div>
+
+     
+
+        
+        
+        <!-- end left column -->
+        
+        <!-- right column -->
+
+        <div id="divBottomRight" class="col-md-6">
+            
+        </div>
+        
+        <!-- end right column -->
+
+    </div>
+    
+    <!-- end middle area -->
+
+</asp:Content>
